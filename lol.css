@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+}
+
+
+
+.bowow{text-decoration: underline;
+    color: rgb(50, 25, 59);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+
+}
+
+
+
+
+
+.hehe { font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(92, 5, 58)}
+
+    .lelo{
+        list-style: square;
+    }
+
+    .meow{
+        list-style: square;
+    }

@@ -1,0 +1,164 @@
+body{background-color: rgb(221, 101, 205);
+
+
+
+
+
+}
+
+
+
+
+header{
+    background-color: rgb(125, 125, 213);
+padding: 20px;
+text-align:center;
+position:fixed;
+width:100%;
+z-index:1 ;
+top:0;
+left:0;
+}
+header h1{
+color:white;
+border: 8px solid white;
+padding: 6px 12px;
+display:inline-block;
+border-radius:24px;
+
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width:100%;
+    height:auto;
+}
+.banner .welcome{
+    background-color:lightpink;
+    color:white;
+    padding: 30px;
+    position: absolute;
+                 left: 0;
+                 top:30%;
+
+}
+
+.banner h2{ font: size 75px;}
+
+nav ul{
+    white-space:nowrap ;
+    max-width:1200;
+    margin:0 auto;
+
+}
+
+nav{ 
+    background-color:lightpink;
+padding: 20px;}
+
+nav li {
+width:25%;
+display:inline-block;
+font-size: 25px;
+font-family:'Inter'
+}
+
+nav li a{
+    text-decoration: none;
+    color:darkmagenta;
+}
+
+main{ max-width:100%;
+      width:1200px
+
+
+}
+
+.pics{ text-align: center;
+    margin:80 px 0;
+
+}
+
+.pics li {
+    display: inline-block;
+    width:40%;
+    margin:20px 5%;
+
+
+}
+
+
+.pics li img{ 
+    max-width:100%;
+}
+
+/* psuedo classes */
+
+nav li a:hover{
+             text-decoration: underline;}
+
+    .pics li:hover{
+        position: relative;
+        top: -7px;
+              
+            
+            }
+
+
+            .boom {
+                background-color: lightpink;
+                color: blue;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                letter-spacing: 6px;
+                cursor: pointer;
+                animation: typewriter 8s steps(88) normal, blinkTextCursor 0.5s infinite;
+                white-space: nowrap;
+                overflow: hidden;
+                border-right: 2px solid black; /* Add border for cursor */
+            }
+            
+            @keyframes typewriter {
+                from {
+                    width: 0;
+                }
+                to { 
+                    width: 800px; /* Corrected width */
+                }
+            }
+            
+            @keyframes blinkTextCursor {
+                from { 
+                    border-right-color: black; 
+                }
+                to { 
+                    border-right-color: transparent; 
+                }
+            }
+    .gallery{ 
+       
+        margin: 5px;
+        border: 1px solid black;
+        display: inline-block;
+        
+    }
+
+    .gallery .description{
+        padding: 10px;
+        text-align: center;}
+
+        .gallery.hover{
+            border:1px solid rgb(18, 10, 12);}
+
+
+
+            .beep{font-size: 25px;
+                max-width: 100%;
+
+
+
+            }
+
+    
+    
+ 
